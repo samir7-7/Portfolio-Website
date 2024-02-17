@@ -1,5 +1,61 @@
 
-@import 'utilities.css';
+/* @import 'utilities.css'; */
+
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+button{
+  padding: 0.8em 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 3px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.button-spl{
+    background: rgb(18, 209, 11);
+    color:rgb(10, 10, 10);
+
+}
+
+.button-spl:hover{
+    background: transparent;
+    border-color: rgb(18, 209, 11);
+    color:rgb(18, 209, 11);
+}
+
+.button-morespl{
+    background: transparent;
+    color:rgb(18, 209, 11);
+    border-color: rgb(18, 209, 11);
+}
+
+.button-morespl:hover{
+    background: rgb(18, 209, 11);
+    color:#fff;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+
+.justify-center{
+    justify-content: center;
+}
+
+
+
 body{
     
     font-family: 'poppins', sans-serif;

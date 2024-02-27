@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            background: #fff;
+            padding: 10px;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+        }
+        .grid-wrapper > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-wrapper>div>img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .grid-wrapper{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+        }
+
+        .grid-wrapper .wide{
+            grid-column: span 2;
+
+        }
+
+        .grid-wrapper .tall{
+            grid-row: span 2;
+        }
+
+        .grid-wrapper .big{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid-wrapper">
+        <div>
+            <img src="Images/(49).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(2).jpg" alt="">
+        </div>
+        <div>
+            <img src="Images/(2).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(4).jpg" alt="">
+        </div>
+        <div>
+            <img src="Images/(4).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(5).jpg" alt="">
+        </div>
+        <div>
+            <img src="Images/(5).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(11).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(13).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(15).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(22).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(23).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(27).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(28).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(36).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(42).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(47).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(1).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(51).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(53).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(59).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(66).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(76).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(78).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(89).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(92).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(104).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(110).png" alt="">
+        </div>
+        <div>
+            <img src="Images/(111).png" alt="">
+        </div>
+    </div>
+</body>
+</html>
